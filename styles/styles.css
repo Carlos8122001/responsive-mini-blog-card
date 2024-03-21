@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fafaf9;
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-card {
+  overflow: hidden;
+  max-width: 368px;
+  height: auto;
+  margin: 0 20px;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 20px;
+  -webkit-box-shadow: 5px 6px 22px -7px rgba(108, 114, 127, 0.44);
+  -moz-box-shadow: 5px 6px 22px -7px rgba(108, 114, 127, 0.44);
+  box-shadow: 5px 6px 22px -7px rgba(108, 114, 127, 0.44);
+}
+
+.blog-card__picture {
+  border-radius: 14px;
+  object-fit: cover;
+  height: 152px;
+  margin: 16px 16px 0px 16px;
+}
+
+.blog-card__tag {
+  text-decoration: none;
+  font-size: 0.625rem;
+  color: #883ae1;
+  background-color: #e6d6fc;
+  padding: 5px 15px;
+  border-radius: 14px;
+  font-weight: bold;
+  margin: 16px;
+}
+
+.blog-card__title {
+  font-size: 1.125rem;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #20293A;
+  padding-left: 16px;
+}
+
+.blog-card__paragraph{
+    font-size: 0.875rem;
+    margin-top: 10px;
+    font-weight: 400;
+    color: #6C727F;
+    line-height: 20px;
+    padding-left: 16px;
+}
+
+.blog-card__author{
+    font-size: 0.75rem;
+    margin-top: 8px;
+    font-weight: 500;
+    color: #6C727F;
+    border-top: 2px solid #E5EAF0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+}
+
