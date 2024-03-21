@@ -29,9 +29,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   gap: 20px;
-  -webkit-box-shadow: 5px 6px 22px -7px rgba(108, 114, 127, 0.44);
-  -moz-box-shadow: 5px 6px 22px -7px rgba(108, 114, 127, 0.44);
-  box-shadow: 5px 6px 22px -7px rgba(108, 114, 127, 0.44);
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.07);
 }
 
 .blog-card__picture {
